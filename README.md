@@ -1,7 +1,7 @@
 # django_reset_password
 in this repo i will store the django forget password code with full documentation.
 
-##step for create reset password code.
+## step for create reset password code.
 1. go inside setting.py file inside your project Set email backend with smtp crediantails.
 note: make sure your app is present in installedapp or static root path  for templates.
 ```
@@ -21,4 +21,7 @@ DEFAULT_FROM_EMAIL = 'default sending email'
  
  ```
  after defining the path check urls it will look like this
+ - 
+![Screenshot (241)](https://user-images.githubusercontent.com/51478832/90765530-bc33a980-e307-11ea-8c27-2e6b1080b6e0.png)
+
  
