@@ -32,6 +32,11 @@ DEFAULT_FROM_EMAIL = 'default sending email'
 <a href="{% url "password_reset" %}">&nbsp;&nbsp;Reset password</a>
 ```
 5.now oen the link by click on this button and you will get into reset password page make sure you are using that email that are register with django admin means you are done sign up before reset password.
+note:in case you are not able to send email on your gmail due to smtp then cjheck your terminal window you will get link over there for reset passpowrd like:
+
+
+
+![Screenshot (242)](https://user-images.githubusercontent.com/51478832/90766814-c8b90180-e309-11ea-83d3-7778ef60a8a5.png)
 
 
  
