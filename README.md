@@ -20,8 +20,18 @@ DEFAULT_FROM_EMAIL = 'default sending email'
  path('accounts/', include('django.contrib.auth.urls'))
  
  ```
- after defining the path check urls it will look like this
+ after defining the path check urls it will look like this.it have lots of urls that provide by django like rest password,login,passord done etc.
+ 
  - 
 ![Screenshot (241)](https://user-images.githubusercontent.com/51478832/90765530-bc33a980-e307-11ea-8c27-2e6b1080b6e0.png)
+
+
+3.After adding urls go inside template and make register folder and place login template there or where you need reset password.
+4.add reset password url in your href link in your template like:
+```
+<a href="{% url "password_reset" %}">&nbsp;&nbsp;Reset password</a>
+```
+5.now oen the link by click on this button and you will get into reset password page make sure you are using that email that are register with django admin means you are done sign up before reset password.
+
 
  
